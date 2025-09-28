@@ -11,14 +11,15 @@ This assumes you already have Docker Desktop installed and running.
 
 ### Step 1: Sign up for Clerk
 
-www.clerk.com
-Setup an API key
-Note the JWKS url
-
-Create .env file in root folder with entries for:
+ - Go to `www.clerk.com` and Sign Up
+ - Setup an API key
+ - Note the JWKS url
+ - Create .env file in root folder with entries for:
+ ```properties
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
 CLERK_SECRET_KEY=
 CLERK_JWKS_URL=
+```
 
 ### Step 2: Load Environment Variables
 
